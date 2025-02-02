@@ -4,179 +4,197 @@
                 padding: 0
             }
 
-            table td,table th {
-                padding: 0
-            }
+table td, table th {
+    padding: 0;
+}
 
-          .c2 {
-              color: #000000;
-              font-weight: 400;
-              text-decoration: none;
-              vertical-align: baseline;
-              font-size: 50pt;
-              font-family: "Times";
-              font-style: normal;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              height: 100vh;
+.c2 {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 50pt;
+    font-family: "Times";
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; /* Center text inside the flex container */
+}
 
-            }
-           
-            .c5 {
-                padding-top: 0pt;
-                padding-bottom: 0pt;
-                line-height: 1.0;
-                text-align: center;
-                height: 11pt
-            }
+.c5 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.0;
+    text-align: center;
+    height: 11pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-            .c8 {
-                padding-top: 0pt;
-                padding-bottom: 0pt;
-                line-height: 1.0;
-                text-align: left;
-                height: 11pt
-            }
+.c8 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.0;
+    text-align: center; /* Changed from left to center */
+    height: 11pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-            .c3 {
-                font-size: 11pt;
-                font-family: "Arial";
-                color: #000000;
-                font-weight: 400
-            }
+.c3 {
+    font-size: 11pt;
+    font-family: "Arial";
+    color: #000000;
+    font-weight: 400;
+    text-align: center; /* Center text */
+}
 
-            .c6 {
-                color: #0000ee;
-                font-weight: 400;
-                font-size: 11pt;
-                font-family: "Times"
-            }
+.c6 {
+    color: #0000ee;
+    font-weight: 400;
+    font-size: 11pt;
+    font-family: "Times";
+    text-align: center; /* Center text */
+}
 
-            .c7 {
-                padding-top: 0pt;
-                padding-bottom: 0pt;
-                line-height: 1.0;
-                text-align: center
-            }
+.c7 {
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    line-height: 1.0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-            .c4 {
-                text-decoration: none;
-                vertical-align: baseline;
-                font-style: normal
-            }
+.c4 {
+    text-decoration: none;
+    vertical-align: baseline;
+    font-style: normal;
+    text-align: center; /* Center text */
+}
 
-            .c1 {
-                background-color: #ead1dc;
-                max-width: 468pt;
-                padding: 72pt 72pt 72pt 72pt
-            }
+.c1 {
+    background-color: #ead1dc;
+    max-width: 468pt;
+    padding: 72pt 72pt 72pt 72pt;
+    text-align: center; /* Center text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-            .c0 {
-                color: inherit;
-                text-decoration: inherit
-            }
+.c0 {
+    color: inherit;
+    text-decoration: inherit;
+    text-align: center; /* Center text */
+}
 
-            .title {
-                padding-top: 24pt;
-                color: #000000;
-                font-weight: 700;
-                font-size: 36pt;
-                padding-bottom: 6pt;
-                font-family: "Arial";
-                line-height: 1.0;
-                page-break-after: avoid;
-                text-align: left
-            }
+.title {
+    padding-top: 24pt;
+    color: #000000;
+    font-weight: 700;
+    font-size: 36pt;
+    padding-bottom: 6pt;
+    font-family: "Arial";
+    line-height: 1.0;
+    page-break-after: avoid;
+    text-align: center; /* Changed from left to center */
+}
 
-            .subtitle {
-                padding-top: 18pt;
-                color: #666666;
-                font-size: 24pt;
-                padding-bottom: 4pt;
-                font-family: "Georgia";
-                line-height: 1.0;
-                page-break-after: avoid;
-                font-style: italic;
-                text-align: left
-            }
+.subtitle {
+    padding-top: 18pt;
+    color: #666666;
+    font-size: 24pt;
+    padding-bottom: 4pt;
+    font-family: "Georgia";
+    line-height: 1.0;
+    page-break-after: avoid;
+    font-style: italic;
+    text-align: center; /* Changed from left to center */
+}
 
-            li {
-                color: #000000;
-                font-size: 11pt;
-                font-family: "Arial"
-            }
+li {
+    color: #000000;
+    font-size: 11pt;
+    font-family: "Arial";
+    text-align: center; /* Center text */
+}
 
-            p {
-                margin: 0;
-                color: #000000;
-                font-size: 11pt;
-                font-family: "Arial"
-            }
+p {
+    margin: 0;
+    color: #000000;
+    font-size: 11pt;
+    font-family: "Arial";
+    text-align: center; /* Center text */
+}
 
-            h1 {
-                padding-top: 12pt;
-                color: #000000;
-                font-weight: 700;
-                font-size: 24pt;
-                padding-bottom: 12pt;
-                font-family: "Arial";
-                line-height: 1.0;
-                text-align: left
-            }
+h1 {
+    padding-top: 12pt;
+    color: #000000;
+    font-weight: 700;
+    font-size: 24pt;
+    padding-bottom: 12pt;
+    font-family: "Arial";
+    line-height: 1.0;
+    text-align: center; /* Changed from left to center */
+}
 
-            h2 {
-                padding-top: 11.2pt;
-                color: #000000;
-                font-weight: 700;
-                font-size: 18pt;
-                padding-bottom: 11.2pt;
-                font-family: "Arial";
-                line-height: 1.0;
-                text-align: left
-            }
+h2 {
+    padding-top: 11.2pt;
+    color: #000000;
+    font-weight: 700;
+    font-size: 18pt;
+    padding-bottom: 11.2pt;
+    font-family: "Arial";
+    line-height: 1.0;
+    text-align: center; /* Changed from left to center */
+}
 
-            h3 {
-                padding-top: 12pt;
-                color: #000000;
-                font-weight: 700;
-                font-size: 14pt;
-                padding-bottom: 12pt;
-                font-family: "Arial";
-                line-height: 1.0;
-                text-align: left
-            }
+h3 {
+    padding-top: 12pt;
+    color: #000000;
+    font-weight: 700;
+    font-size: 14pt;
+    padding-bottom: 12pt;
+    font-family: "Arial";
+    line-height: 1.0;
+    text-align: center; /* Changed from left to center */
+}
 
-            h4 {
-                padding-top: 12.8pt;
-                color: #000000;
-                font-weight: 700;
-                font-size: 12pt;
-                padding-bottom: 12.8pt;
-                font-family: "Arial";
-                line-height: 1.0;
-                text-align: left
-            }
+h4 {
+    padding-top: 12.8pt;
+    color: #000000;
+    font-weight: 700;
+    font-size: 12pt;
+    padding-bottom: 12.8pt;
+    font-family: "Arial";
+    line-height: 1.0;
+    text-align: center; /* Changed from left to center */
+}
 
-            h5 {
-                padding-top: 12.8pt;
-                color: #000000;
-                font-weight: 700;
-                font-size: 9pt;
-                padding-bottom: 12.8pt;
-                font-family: "Arial";
-                line-height: 1.0;
-                text-align: left
-            }
+h5 {
+    padding-top: 12.8pt;
+    color: #000000;
+    font-weight: 700;
+    font-size: 9pt;
+    padding-bottom: 12.8pt;
+    font-family: "Arial";
+    line-height: 1.0;
+    text-align: center; /* Changed from left to center */
+}
 
-            h6 {
-                padding-top: 18pt;
-                color: #000000;
-                font-weight: 700;
-                font-size: 8pt;
-                padding-bottom: 18pt;
-                font-family: "Arial";
-                line-height: 1.0;
-                text-align: left
-            }
-        </style>
+h6 {
+    padding-top: 18pt;
+    color: #000000;
+    font-weight: 700;
+    font-size: 8pt;
+    padding-bottom: 18pt;
+    font-family: "Arial";
+    line-height: 1.0;
+    text-align: center; /* Changed from left to center */
+}
