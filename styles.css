@@ -1,12 +1,12 @@
 /* Removed unnecessary @import statement */
 <style>
 
-ol {
+.ol {
     margin: 0;
     padding: 0;
 }
 
-table td, table th {
+.table td, table th {
     padding: 0;
 }
 
