@@ -8,15 +8,19 @@
                 padding: 0
             }
 
-            .c2 {
-                color: #000000;
-                font-weight: 400;
-                text-decoration: none;
-                vertical-align: baseline;
-                font-size: 50pt;
-                font-family: "Times";
-                font-style: normal
-            }
+    .c2 {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 50pt;
+    font-family: "Times";
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height to center vertically */
+}
 
             .c5 {
                 padding-top: 0pt;
