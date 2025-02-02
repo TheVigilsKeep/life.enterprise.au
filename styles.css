@@ -1,11 +1,19 @@
- <style type="text/css">
-            @import url(https://themes.googleusercontent.com/fonts/css?kit=tKLL3UDOEolLNLmIs0YRYA);ol {
-                margin: 0;
-                padding: 0
-            }
+/* Removed unnecessary @import statement */
+
+ol {
+    margin: 0;
+    padding: 0;
+}
 
 table td, table th {
     padding: 0;
+}
+
+.c2, .c5, .c7, .c8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .c2 {
@@ -16,33 +24,18 @@ table td, table th {
     font-size: 50pt;
     font-family: "Times";
     font-style: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-    text-align: center; /* Center text inside the flex container */
 }
 
-.c5 {
-    padding-top: 0pt;
-    padding-bottom: 0pt;
+.c5, .c8 {
+    padding-top: 0;
+    padding-bottom: 0;
     line-height: 1.0;
+    height: 11pt;
+}
+
+.c3, .c6, .c4, .c0, li, p, h1, h2, h3, h4, h5, h6 {
     text-align: center;
-    height: 11pt;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.c8 {
-    padding-top: 0pt;
-    padding-bottom: 0pt;
-    line-height: 1.0;
-    text-align: center; /* Changed from left to center */
-    height: 11pt;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .c3 {
@@ -50,7 +43,6 @@ table td, table th {
     font-family: "Arial";
     color: #000000;
     font-weight: 400;
-    text-align: center; /* Center text */
 }
 
 .c6 {
@@ -58,143 +50,86 @@ table td, table th {
     font-weight: 400;
     font-size: 11pt;
     font-family: "Times";
-    text-align: center; /* Center text */
-}
-
-.c7 {
-    padding-top: 0pt;
-    padding-bottom: 0pt;
-    line-height: 1.0;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.c4 {
-    text-decoration: none;
-    vertical-align: baseline;
-    font-style: normal;
-    text-align: center; /* Center text */
 }
 
 .c1 {
     background-color: #ead1dc;
     max-width: 468pt;
-    padding: 72pt 72pt 72pt 72pt;
-    text-align: center; /* Center text */
+    padding: 72pt;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
-.c0 {
+.c4, .c0 {
+    text-decoration: none;
+    vertical-align: baseline;
+    font-style: normal;
     color: inherit;
-    text-decoration: inherit;
-    text-align: center; /* Center text */
+}
+
+.title, .subtitle, h1, h2, h3, h4, h5, h6 {
+    padding-top: 12pt;
+    color: #000000;
+    font-weight: 700;
+    line-height: 1.0;
+    page-break-after: avoid;
 }
 
 .title {
-    padding-top: 24pt;
-    color: #000000;
-    font-weight: 700;
     font-size: 36pt;
-    padding-bottom: 6pt;
     font-family: "Arial";
-    line-height: 1.0;
-    page-break-after: avoid;
-    text-align: center; /* Changed from left to center */
+    padding-bottom: 6pt;
 }
 
 .subtitle {
     padding-top: 18pt;
-    color: #666666;
-    font-size: 24pt;
     padding-bottom: 4pt;
+    font-size: 24pt;
     font-family: "Georgia";
-    line-height: 1.0;
-    page-break-after: avoid;
+    color: #666666;
     font-style: italic;
-    text-align: center; /* Changed from left to center */
 }
 
-li {
-    color: #000000;
-    font-size: 11pt;
-    font-family: "Arial";
-    text-align: center; /* Center text */
-}
-
-p {
+li, p {
     margin: 0;
-    color: #000000;
     font-size: 11pt;
     font-family: "Arial";
-    text-align: center; /* Center text */
 }
 
 h1 {
-    padding-top: 12pt;
-    color: #000000;
-    font-weight: 700;
     font-size: 24pt;
     padding-bottom: 12pt;
     font-family: "Arial";
-    line-height: 1.0;
-    text-align: center; /* Changed from left to center */
 }
 
 h2 {
-    padding-top: 11.2pt;
-    color: #000000;
-    font-weight: 700;
     font-size: 18pt;
     padding-bottom: 11.2pt;
     font-family: "Arial";
-    line-height: 1.0;
-    text-align: center; /* Changed from left to center */
 }
 
 h3 {
-    padding-top: 12pt;
-    color: #000000;
-    font-weight: 700;
     font-size: 14pt;
     padding-bottom: 12pt;
     font-family: "Arial";
-    line-height: 1.0;
-    text-align: center; /* Changed from left to center */
 }
 
 h4 {
-    padding-top: 12.8pt;
-    color: #000000;
-    font-weight: 700;
     font-size: 12pt;
     padding-bottom: 12.8pt;
     font-family: "Arial";
-    line-height: 1.0;
-    text-align: center; /* Changed from left to center */
 }
 
 h5 {
-    padding-top: 12.8pt;
-    color: #000000;
-    font-weight: 700;
     font-size: 9pt;
     padding-bottom: 12.8pt;
     font-family: "Arial";
-    line-height: 1.0;
-    text-align: center; /* Changed from left to center */
 }
 
 h6 {
-    padding-top: 18pt;
-    color: #000000;
-    font-weight: 700;
     font-size: 8pt;
     padding-bottom: 18pt;
     font-family: "Arial";
-    line-height: 1.0;
-    text-align: center; /* Changed from left to center */
 }
